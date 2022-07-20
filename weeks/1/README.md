@@ -2,10 +2,13 @@
 
 ### Tuesday 
 
-1. **Exercise**
+:boom:**Exercise 1** Explanation about Interpreted And Compiled Programming Languages
 
-sadasdasdas
 
-3. **Exercise**
-4. **Exercise**
-5. **Exercise**
+
+
+:boom:**Exercise 2**
+
+:boom:**Exercise 3**
+
+:boom:**Exercise 4**
