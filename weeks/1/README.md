@@ -1,4 +1,4 @@
-## Week 1 ##  
+## Week 1 ##  <img src="https://i.postimg.cc/DZ6VWxqs/Recurso-2.png" with="50px" height="50px" alt="Recurso-1"/>
 
 ### Tuesday 
 
@@ -36,8 +36,7 @@
         is called ByteCode, this file will contain strange characters and symbols, 
         finally it arrives to the JVM and creates the multiplatform effect.
 
-<a href='#' target='_blank'><img src='https://i.postimg.cc/RF5x8xb9/1.png' with='100px' height='200' alt='1'/></a>
-
+<img src="https://i.postimg.cc/RF5x8xb9/1.png" with="100px" height="200px" alt="Recurso-1"/>
 
 :boom:**Exercise 3**
 
