@@ -1,6 +1,6 @@
-## Week 1 ##  <img src="https://i.postimg.cc/DZ6VWxqs/Recurso-2.png" with="50px" height="50px" alt="Recurso-1"/>
+## Week 1  <img src="https://i.postimg.cc/DZ6VWxqs/Recurso-2.png" with="50px" height="50px" alt="Recurso-1"/>
 
-### Tuesday 
+### Tuesday 19 July, 2022
 
 :boom:**Exercise 1** Explanation about Interpreted And Compiled Programming Languages
 
