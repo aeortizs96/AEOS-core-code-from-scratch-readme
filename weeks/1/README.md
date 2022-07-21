@@ -14,6 +14,11 @@
     Finally we have the hybrid languages Java, C#, Python.
     I liked very much to read in the article the information of the Python programming language, because it can be executed as a compiled program or as an interpreted  
     language. 
+    
+| Compiled | Interpreted | Hybrid | 
+| ----------- | ----------- |
+| Header | Title |Title |
+| Paragraph | Text |Title |
 
 
 :boom:**Exercise 2**
