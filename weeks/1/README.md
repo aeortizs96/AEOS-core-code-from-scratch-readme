@@ -1,4 +1,4 @@
-## Week 1 ##
+## Week 1 ##  
 
 ### Tuesday 
 
@@ -21,7 +21,11 @@
 | C      | PHP       |Java |
 | C++   | JavaScript       |Python |
 
-:boom:**Exercise 2**
+
+
+
+
+:boom:**Exercise 2**  The language java is compiled and interpreted
 
         It is said that the java programming language is compiled and interpreted   
         because as you can see in the image, initially a program is created 
