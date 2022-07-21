@@ -4,16 +4,16 @@
 
 :boom:**Exercise 1** Explanation about Interpreted And Compiled Programming Languages
 
-    A compiled programming language is a language that needs to be transcribed from a 
-    human language into a machine language;
-    It is said that this type of languages were the first to be created.
+        A compiled programming language is a language that needs to be transcribed from a 
+        human language into a machine language;
+        It is said that this type of languages were the first to be created.
 
-    Then we have the interpreted programming languages, these languages are famous 
-    because they are executed while compiling.
-  
-    I liked very much to read in the article the information of the Python programming 
-    language, because it can be executed as a compiled program or as an interpreted  
-    language. 
+        Then we have the interpreted programming languages, these languages are famous 
+        because they are executed while compiling.
+
+        I liked very much to read in the article the information of the Python programming 
+        language, because it can be executed as a compiled program or as an interpreted  
+        language. 
         
     
 | Compiled      | Interpreted | Hybrid |
@@ -56,4 +56,7 @@ ENDIF
 END
 ~~~
 
-:boom:**Exercise 4**
+:boom:**Exercise 4** Low-Level vs High-Level Programming Languages
+
+        The low level languages are those that are closer to the communication with the hardware architecture and the high 
+        level languages have a language closer to the human language and are used by programmers.
