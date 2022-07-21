@@ -2,28 +2,12 @@
 
 ### Tuesday 19 July, 2022
 
-<<<<<<< HEAD
-1. **Exercise** 
-=======
 :boom:**Exercise 1** Explanation about Interpreted And Compiled Programming Languages
->>>>>>> 21bd48f2563f5ebf7375d9cce90ff067d4b8db74
 
-<<<<<<< HEAD
-   :boom: Base on this reading and this video, create an explanation about Interpreted And Compiled Programming Languages in your README
-=======
     A compiled programming language is a language that needs to be transcribed from a 
     human language into a machine language;
     It is said that this type of languages were the first to be created.
->>>>>>> 21bd48f2563f5ebf7375d9cce90ff067d4b8db74
 
-<<<<<<< HEAD
-   
-    
-
-3. **Exercise**
-4. **Exercise**
-5. **Exercise**
-=======
     Then we have the interpreted programming languages, these languages are famous 
     because they are executed while compiling.
   
@@ -36,7 +20,6 @@
 | ----------- | ----------- |----------- |
 | C      | PHP       |Java |
 | C++   | JavaScript       |Python |
->>>>>>> 21bd48f2563f5ebf7375d9cce90ff067d4b8db74
 
 
 
@@ -56,5 +39,19 @@
 <img src="https://i.postimg.cc/RF5x8xb9/1.png" with="100px" height="200px" alt="Recurso-1"/>
 
 :boom:**Exercise 3**
+
+START
+PRINT 'Hello User, please enter the number to convert'
+ValueA <-- 0.000044
+ValueB <-- GET 
+
+IF ValueA >= 0
+TotalC <-- ValueA * ValueB
+PRINT ' The value of ' ValueB  ' USD '  ' in BTC is' TotalC
+
+ELSE
+PRINT 'Hello User, please enter a valid number'
+ENDIF
+END
 
 :boom:**Exercise 4**
