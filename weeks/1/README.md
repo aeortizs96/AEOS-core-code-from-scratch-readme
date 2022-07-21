@@ -38,7 +38,7 @@
 
 <img src="https://i.postimg.cc/RF5x8xb9/1.png" with="100px" height="200px" alt="Recurso-1"/>
 
-:boom:**Exercise 3**
+:boom:**Exercise 3** Convert USD to BTC
 
 ~~~
 START
