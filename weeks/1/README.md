@@ -147,7 +147,7 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
             
 >Create a program that displays your name
 
-~~~
+```Mips
   .data
 	      message: .asciiz "\nHello what your name? "
 	      message2: .asciiz "\n Nice to meet you "
@@ -177,17 +177,31 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
               
               li $v0, 10
               syscall
-~~~
+```
 
 
 ### Thursday 21 July, 2022
 
 :boom:**Exercise 1** Print special numbers
 
-~~~
+```javascript
 		for (let i = 0; i <= 100; i++) {
  			if((i % 2) == 0 ){
 			 console.log(i);
  			}  
 		}
-~~~
+```
+
+:boom:**Exercise 2** Bad Code :fearful:
+
+```javascript
+		var cond = false;
+
+		if ((cond)) {
+		  console.log('The cond variable is true');
+		} else {
+		  console.log('The cond variable is false');
+		}
+```
+
+>You should almost never have an if...else with an assignment like "x = y" as a condition, because there is another condition that can be used for this and that is the while condition
