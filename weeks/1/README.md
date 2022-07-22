@@ -41,19 +41,19 @@
 :boom:**Exercise 3** Convert USD to BTC
 
 ~~~
-START
-PRINT 'Hello User, please enter the number to convert'
-ValueA <-- 0.000044
-ValueB <-- GET 
+        START
+        PRINT 'Hello User, please enter the number to convert'
+        ValueA <-- 0.000044
+        ValueB <-- GET 
 
-IF ValueA >= 0
-TotalC <-- ValueA * ValueB
-PRINT ' The value of ' ValueB  ' USD '  ' in BTC is' TotalC
+        IF ValueA >= 0
+        TotalC <-- ValueA * ValueB
+        PRINT ' The value of ' ValueB  ' USD '  ' in BTC is' TotalC
 
-ELSE
-PRINT 'Hello User, please enter a valid number'
-ENDIF
-END
+        ELSE
+        PRINT 'Hello User, please enter a valid number'
+        ENDIF
+        END
 ~~~
 
 :boom:**Exercise 4** Low-Level vs High-Level Programming Languages
@@ -145,3 +145,36 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
 ~~~
             
             
+>Create a program that displays your name
+
+~~~
+  .data
+	      message: .asciiz "\nHello what your name? "
+	      message2: .asciiz "\n Nice to meet you "
+	      userImput: .space 20
+  .text
+	      main:
+              
+              li $v0, 4
+              la $a0 message
+              syscall
+
+	      # Getting user's input as text
+	      li $v0, 8
+              la $a0, userImput
+              li $a1, 20
+              syscall
+              
+              #Display Nice to meet you
+              li $v0, 4
+              la $a0 message2
+              syscall
+              
+              #Display the name
+              li $v0, 4
+              la $a0 userImput
+              syscall
+              
+              li $v0, 10
+              syscall
+~~~
