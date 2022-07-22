@@ -206,3 +206,19 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
 ```
 
 >You should almost never have an if...else with an assignment like "x = y" as a condition, because there is another condition that can be used for this and that is the while condition
+
+
+:boom:**Exercise 3** Bad Code :fearful:
+```javascript
+		var n = 500;
+
+		if (n == 100) {
+		  console.log('This is a special number!');
+		} else 
+		    if(n < 1000 &&  n % 10 == 0 && n != 100){
+			console.log('This number is almost special');
+		     }
+		      else{
+			console.log('Just a regular number');
+			}
+```
