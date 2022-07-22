@@ -85,64 +85,64 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
 >Create a program that adds any two given numbers provided by the user
 
 ~~~
-        .data
-
-                      message: .asciiz "\nHello User\n"
-                      value1: .asciiz "\nEnter the first number: "
-                      value2: .asciiz "\nEnter the second number: "
-                      result_message1: .asciiz "\nThe numbers are "
-                      result_message2: .asciiz " and "
-        .text
-                      main:
-
-                     # Print the code
-                      li $v0, 4 
-                      la $a0, message
-                      syscall  # instruction printing
-
-
-                      # call number 1
-
-                      li $v0, 4 
-                      la $a0, value1
-                      syscall  
-
-                      li $v0, 5  #create one block
-                      syscall
-
-                      move $t1, $v0  #saves the variable
-
-                      # call number 2
-
-                      li $v0, 4 
-                      la $a0, value2
-                      syscall  
-
-                      li $v0, 5  
-                      syscall
-
-                      move $t2, $v0 
-
-                      li $v0, 4 
-                      la $a0, result_message1
-                      syscall  
-
-                      # now, print one number integer
-                      li $v0, 1
-
-                      # Second, we are telling the computer where is the number that we want to print
-                      move $a0, $t1
-                      syscall
-
-                      li $v0, 4 
-                      la $a0, result_message2
-                      syscall 
-
-                      li $v0, 1
-
-                      move $a0, $t2
-                      syscall
-~~~
+ .data
+ 
+ 	      message: .asciiz "\nHello User\n"
+	      value1: .asciiz "\nEnter the first number: "
+	      value2: .asciiz "\nEnter the second number: "
+	      result_message1: .asciiz "\nThe numbers are "
+	      result_message2: .asciiz " and "
+.text
+	      main:
+                          
+             # Print the code
+              li $v0, 4 
+              la $a0, message
+              syscall  # instruction printing
+              
+              
+              # call number 1
+              
+              li $v0, 4 
+              la $a0, value1
+              syscall  
+              
+              li $v0, 5  #create one block
+              syscall
+              
+              move $t1, $v0  #saves the variable
+              
+              # call number 2
+              
+              li $v0, 4 
+              la $a0, value2
+              syscall  
+              
+              li $v0, 5  
+              syscall
+              
+              move $t2, $v0 
+              
+              li $v0, 4 
+              la $a0, result_message1
+              syscall  
+              
+              # now, print one number integer
+              li $v0, 1
+              
+              # Second, we are telling the computer where is the number that we want to print
+              move $a0, $t1
+              syscall
+              
+              li $v0, 4 
+              la $a0, result_message2
+              syscall 
+              
+              li $v0, 1
+              
+	      move $a0, $t2
+              syscall
+ ~~~
             
             
 >Create a program that displays your name
