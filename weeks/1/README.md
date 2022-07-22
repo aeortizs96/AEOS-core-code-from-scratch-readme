@@ -178,3 +178,16 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
               li $v0, 10
               syscall
 ~~~
+
+
+### Thursday 21 July, 2022
+
+:boom:**Exercise 1** Print special numbers
+
+~~~
+		for (let i = 0; i <= 100; i++) {
+ 			if((i % 2) == 0 ){
+			 console.log(i);
+ 			}  
+		}
+~~~
