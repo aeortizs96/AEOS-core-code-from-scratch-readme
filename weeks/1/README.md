@@ -60,3 +60,88 @@ END
 
         The low level languages are those that are closer to the communication with the hardware architecture and the high 
         level languages have a language closer to the human language and are used by programmers.
+        
+        
+### Wednesday 20 July, 2022  
+  
+:boom:**Exercise 1**
+
+To convert a decimal number to binary, successive divisions by 2 must be made and the remainders obtained in each division must be written in the inverse order in which they were obtained.
+
+        1996 / 2 = 998 Residuo: 1
+        998 / 2 = 499 Residuo: 0
+        499 / 2 = 249 Residuo: 1 
+        249 / 2 = 124 Residuo: 1
+        124 / 2 = 62 Residuo: 0
+        62 / 2 = 31 Residuo: 0
+        31 / 2 = 15 Residuo: 1
+        15 / 2 = 7 Residuo: 1
+        7 / 2 = 3 Residuo: 1
+        3 / 2 = 1 Residuo: 1
+
+
+:boom:**Exercise 2** MIPS exercise
+
+>Create a program that adds any two given numbers provided by the user
+
+~~~
+        .data
+
+                      message: .asciiz "\nHello User\n"
+                      value1: .asciiz "\nEnter the first number: "
+                      value2: .asciiz "\nEnter the second number: "
+                      result_message1: .asciiz "\nThe numbers are "
+                      result_message2: .asciiz " and "
+        .text
+                      main:
+
+                     # Print the code
+                      li $v0, 4 
+                      la $a0, message
+                      syscall  # instruction printing
+
+
+                      # call number 1
+
+                      li $v0, 4 
+                      la $a0, value1
+                      syscall  
+
+                      li $v0, 5  #create one block
+                      syscall
+
+                      move $t1, $v0  #saves the variable
+
+                      # call number 2
+
+                      li $v0, 4 
+                      la $a0, value2
+                      syscall  
+
+                      li $v0, 5  
+                      syscall
+
+                      move $t2, $v0 
+
+                      li $v0, 4 
+                      la $a0, result_message1
+                      syscall  
+
+                      # now, print one number integer
+                      li $v0, 1
+
+                      # Second, we are telling the computer where is the number that we want to print
+                      move $a0, $t1
+                      syscall
+
+                      li $v0, 4 
+                      la $a0, result_message2
+                      syscall 
+
+                      li $v0, 1
+
+                      move $a0, $t2
+                      syscall
+~~~
+            
+            
