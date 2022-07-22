@@ -84,7 +84,7 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
 
 >Create a program that adds any two given numbers provided by the user
 
-~~~
+```assembly
  .data
  
  	      message: .asciiz "\nHello User\n"
@@ -142,12 +142,13 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
               
 	      move $a0, $t2
               syscall
- ~~~
+ ```
             
             
 >Create a program that displays your name
 
-```Mips
+```assembly
+
   .data
 	      message: .asciiz "\nHello what your name? "
 	      message2: .asciiz "\n Nice to meet you "
