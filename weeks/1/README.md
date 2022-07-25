@@ -222,3 +222,8 @@ To convert a decimal number to binary, successive divisions by 2 must be made an
 			console.log('Just a regular number');
 			}
 ```
+
+
+:boom:**Exercise 4** advance
+
+<img src="https://i.postimg.cc/zfgXM61D/avance-de-git.png" with="400px" height="200px" alt="Recurso-1"/>
