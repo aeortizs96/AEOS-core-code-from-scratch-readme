@@ -2,4 +2,8 @@
 
 ### Monday 25 July, 2022
 
-:boom:**Exercise 1** 
+:boom:**Exercise 1** advance
+
+<img src="https://i.postimg.cc/cCMZRt8f/2.png" with="400px" height="200px" alt="Recurso-1"/>
+
+
