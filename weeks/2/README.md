@@ -12,4 +12,12 @@
 <img src="https://i.postimg.cc/PxvRZCRK/3.png" with="200px" height="100px" alt="Recurso-1"/>
 
 
+:boom:**Exercise 3** Creat an account in codewars
+
+<img src="https://i.postimg.cc/PxvRZCRK/3.png" with="200px" height="100px" alt="Recurso-1"/>
+
+
+
+
+
 
