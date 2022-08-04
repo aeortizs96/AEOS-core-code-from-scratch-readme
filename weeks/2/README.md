@@ -33,3 +33,13 @@
 
 
 ### Tuesday 26 July, 2022
+
+:boom:**Exercise 1** advance HTML 
+
+:boom:**Exercise 2** Multiply exercise
+
+```javascript
+function multiply(a, b){
+ return a * b
+}
+```
